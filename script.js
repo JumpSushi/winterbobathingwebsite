@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function createSnowflaaakes() {
     const snowfall = document.querySelector('.snowfall');
     for(let e = 0; e < 50; e++) {
-        createSnowflaaakes(snowfall)
+        createSnowflakes(snowfall)
     }
 }
 
-function createSnowflaaakes(container) {
+function createSnowflakes(container) {
     const snowflake = document.createElement('div');
     snowflake.className='snowflake';
     snowflake.style.left = Math.random() *100 + 'vw';
